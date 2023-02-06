@@ -1,0 +1,20 @@
+//Import Files
+@use "../../Helpers/Variblies.scss" as *;
+
+@use "../Head/Head.scss" as *;
+
+@use "../Items/Items.scss" as *;
+
+
+//Rules 
+#home{
+    background-color: $Very-light-grayish-blue;
+    .card{
+        outline: none !important;
+        border: none !important;
+        background-color: $White-color;
+        box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.51);
+        -webkit-box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.51);
+        -moz-box-shadow: 0px 0px 30px -12px rgba(0,0,0,0.51);
+    }
+}

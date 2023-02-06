@@ -1,0 +1,47 @@
+//Import Files
+
+@use "../../Helpers/Variblies.scss" as *;
+
+//Rules
+#items{
+    .notfyCard{
+        background-color: $Light-grayish-blue-1;
+        .red{
+            background-color: $Red-color;
+            width: 15px;
+            height: 15px;
+        }
+        .title{
+            color: $Very-dark-blue;
+            transition: all 1s;
+            cursor: pointer;
+            &:hover{
+                color: $Blue-color;
+            }
+        }
+        .lightTxt, .time{
+            color: $Grayish-blue;
+        }
+        .txt{
+            color: $Dark-grayish-blue;
+            transition: all 1s;
+            cursor: pointer;
+            &:hover{
+                color: $Blue-color;
+            }
+        }
+    }
+    .msg{
+        border: 1px solid $Light-grayish-blue-2;
+        cursor: pointer;
+        transition: all 1s;
+        &:hover{
+            background-color: $Light-grayish-blue-1 !important;
+        }
+    }
+    .chessImg{
+        width: 10%;
+        cursor: pointer;
+        margin-left: 100px;
+    }
+}

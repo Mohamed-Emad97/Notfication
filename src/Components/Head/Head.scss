@@ -1,0 +1,18 @@
+//Import Files
+@use "../../Helpers/Variblies.scss" as *;
+
+//Rules
+header{
+    .num{
+        background-color: $Blue-color;
+        color: $White-color;
+    }
+    .txt{
+        color: $Grayish-blue;
+        cursor: pointer;
+        transition: all 1s;
+        &:hover{
+            color: $Blue-color;
+        }
+    }
+}
