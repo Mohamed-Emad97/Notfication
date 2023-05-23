@@ -5,9 +5,9 @@ import Items from "../Items/Items";
 export default function Home() {
     return (
         <>
-            <section id="home" className='vh-100'>
+            <section id="home">
                 <div className="container d-flex justify-content-center align-items-center my-3">
-                    <div className="card p-4">
+                    <div className="card my-5 p-4">
                         <Head/>
                         <Items/>
                     </div>

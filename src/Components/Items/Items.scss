@@ -6,6 +6,9 @@
 #items{
     .notfyCard{
         background-color: $Light-grayish-blue-1;
+        img{
+            min-width: 5rem;
+        }
         .red{
             background-color: $Red-color;
             width: 15px;
@@ -33,6 +36,10 @@
     }
     .msg{
         border: 1px solid $Light-grayish-blue-2;
+        width: 75%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
         cursor: pointer;
         transition: all 1s;
         &:hover{
@@ -40,8 +47,22 @@
         }
     }
     .chessImg{
-        width: 10%;
+        width: 2rem;
         cursor: pointer;
-        margin-left: 100px;
     }
 }
+
+
+@media (max-width: 540px) {
+    #items{
+        font-size: 14px;
+        .chessImg{
+            display: none;
+        }
+    }
+    .msg{
+        width: 100%;
+        left: auto;
+        transform: translateX(0);
+    }
+} 
